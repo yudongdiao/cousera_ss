@@ -1,0 +1,12 @@
+1. Three classic security properties:
+	-Confidentiality
+	-Integrity
+	-Availability
+
+2. Why is it that the compiler does not know the absolute address of a local variable?
+	-As a stack-allocated variable, it could have different addresses depending on who called the function
+
+3. How does a buffer overflow on the stack facilitate running attacker-injected code?
+	-By overwriting the return address to point to the location of that code.
+
+4. An integer overflow occurs when an integer is used to access a buffer outside of the buffer's bounds.
